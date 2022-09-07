@@ -18,12 +18,17 @@ class ViewController: UIViewController {
     @IBAction func pressMeButtonPressed(_ sender: Any) {
     
     print("Hello world")
+    }
+    @IBAction func pressMeButtonPressed2(_ sender: Any) {
         
-
-    
+    print("I got this!")
     }
     
     
+    
+   
+    }
+    
 
 
 
@@ -31,5 +36,5 @@ class ViewController: UIViewController {
 
 
 
-}
+
 
