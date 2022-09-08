@@ -17,13 +17,11 @@ class secondViewController: UIViewController {
     
     @IBAction func changeColorButtonPressed(_ sender: Any) {
     
-    
-    
     }
     
     
     
-    
+        
     
     /*
     // MARK: - Navigation
