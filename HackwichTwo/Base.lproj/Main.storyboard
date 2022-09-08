@@ -26,12 +26,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2T-3e-Zef">
-                                <rect key="frame" x="136" y="586" width="143" height="69"/>
+                                <rect key="frame" x="130" y="579" width="154" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Press Me"/>
                                 <connections>
                                     <action selector="pressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FgZ-or-hdO"/>
+                                    <segue destination="gT2-Gk-uvF" kind="show" id="WLk-33-kba"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,6 +43,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="93.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SIc-3V-qp7">
+            <objects>
+                <viewController id="gT2-Gk-uvF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Ao-pq-hza">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tG6-88-tMe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5wT-RD-meD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JQM-cQ-1oy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="777" y="94"/>
         </scene>
     </scenes>
     <resources>
